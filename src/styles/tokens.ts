@@ -1,4 +1,4 @@
-export const tokens = {
+export const tokens: Record<string, string> = {
   colorBlack: '--nes-colorBlack',
   colorWhite: '--nes-colorWhite',
   color00: '--nes-color00',
@@ -17,6 +17,7 @@ export const tokens = {
   color0D: '--nes-color0D',
   color0E: '--nes-color0E',
   color0F: '--nes-color0F',
+
   color10: '--nes-color10',
   color11: '--nes-color11',
   color12: '--nes-color12',
@@ -33,6 +34,7 @@ export const tokens = {
   color1D: '--nes-color1D',
   color1E: '--nes-color1E',
   color1F: '--nes-color1F',
+
   color20: '--nes-color20',
   color21: '--nes-color21',
   color22: '--nes-color22',
@@ -49,6 +51,7 @@ export const tokens = {
   color2D: '--nes-color2D',
   color2E: '--nes-color2E',
   color2F: '--nes-color2F',
+
   color30: '--nes-color30',
   color31: '--nes-color31',
   color32: '--nes-color32',
@@ -65,26 +68,4 @@ export const tokens = {
   color3D: '--nes-color3D',
   color3E: '--nes-color3E',
   color3F: '--nes-color3F',
-  fontFamiliy: '--nes-fontFamily',
-  fontSize: '--nes-fontSize',
-  baseColor: '--nes-baseColor',
-  backgroundColor: '--nes-background-color',
-  borderSize: '--nes-borderSize',
-  defaultNormal: '--nes-defaultNormal',
-  defaultHover: '--nes-defaultHover',
-  defaultShadow: '--nes-defaultShadow',
-  disabledNormal: '--nes-disabledNormal',
-  disabledHover: '--nes-disabledHover',
-  primaryNormal: '--nes-primaryNormal',
-  primaryHover: '--nes-primaryHover',
-  primaryShadow: '--nes-primaryShadow',
-  successNormal: '--nes-successNormal',
-  successHover: '--nes-successHover',
-  successShadow: '--nes-successShadow',
-  warningNormal: '--nes-warningNormal',
-  warningHover: '--nes-warningHover',
-  warningShadow: '--nes-warningShadow',
-  errorNormal: '--nes-errorNormal',
-  errorHover: '--nes-errorHover',
-  errorShadow: '--nes-errorShadow',
 };

@@ -1,4 +1,4 @@
-export const colorPalette = {
+export const colorPalette: Record<string, string> = {
   colorBlack: '#212529',
   colorWhite: '#fff',
   color00: '#7c7c7c',
